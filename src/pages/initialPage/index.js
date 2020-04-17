@@ -1,12 +1,12 @@
-import React, { Component } from 'react'
-import { Container } from './style'
+import React, { Component } from 'react';
+import { Container } from './style';
 
-import AppLogo from '../../assets/React.js_logo.png'
+import AppLogo from '../../assets/React.js_logo.png';
 
 class InitialPage extends Component {
   state = {
-    test: false
-  }
+    test: false,
+  };
   render() {
     return (
       <Container>
@@ -16,8 +16,8 @@ class InitialPage extends Component {
           <img src={AppLogo} alt="applogo" />
         </div>
       </Container>
-    )
+    );
   }
 }
 
-export default InitialPage
+export default InitialPage;
